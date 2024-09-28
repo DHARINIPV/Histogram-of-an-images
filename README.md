@@ -40,7 +40,7 @@ cv2.imshow("color image",color_image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
-### Histogram of Grayscale Image and any channel of Color Image
+### Histogram of Grayscale Image
 ```python
 import numpy as np
 gray_image=cv2.imread('gray.jpg')
@@ -73,7 +73,7 @@ plt.ylabel("pixel count")
 plt.stem(color_hist)
 plt.show()
 ```
-### Histogram Equalization of Grayscale Image.
+### Histogram Equalization of Grayscale Image
 ```python
 import cv2
 gray_image = cv2.imread("gray.jpg",0)
